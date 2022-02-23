@@ -6,6 +6,9 @@ public class Main {
 
         PalindromeNumberEpamHomeWork palindromeNumberEpamHomeWork = new PalindromeNumberEpamHomeWork();
         palindromeNumberEpamHomeWork.isPalindrome(121);
+
+        FizzBuzzEpam fizzBuzzEpam = new FizzBuzzEpam();
+        fizzBuzzEpam.fizzBuzz(10);
     }
-    
+
 }
