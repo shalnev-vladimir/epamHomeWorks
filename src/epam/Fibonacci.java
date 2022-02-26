@@ -1,7 +1,5 @@
 package epam;
 
-// import static java.lang.System.*;
-
 public class Fibonacci {
 
     public int fibonacciRecursive(int n) {
