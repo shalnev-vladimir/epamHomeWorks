@@ -1,5 +1,7 @@
 package epam;
 
+import static java.lang.System.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +20,9 @@ public class Main {
 
         DivideWithoutDividerEpam divideWithoutDividerEpam = new DivideWithoutDividerEpam();
         divideWithoutDividerEpam.divideWithoutDivider();
+
+        Fibonacci fibonacci = new Fibonacci();
+        out.println(fibonacci.fibonacciRecursive(11));
     }
 
 }
