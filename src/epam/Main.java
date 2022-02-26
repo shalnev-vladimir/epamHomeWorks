@@ -1,5 +1,6 @@
 package epam;
 
+import java.util.Arrays;
 import static java.lang.System.*;
 
 public class Main {
@@ -23,6 +24,9 @@ public class Main {
 
         Fibonacci fibonacci = new Fibonacci();
         out.println(fibonacci.fibonacciRecursive(11));
+
+        TwoSumEpam twoSumEpam = new TwoSumEpam();
+        out.println(Arrays.toString(twoSumEpam.twoSum(new int[]{2, 4, 6}, 10)));
     }
 
 }
