@@ -14,7 +14,7 @@ public class Main {
         fizzBuzzEpam.fizzBuzz(10);
 
         SquareRootEpam squareRootEpam = new SquareRootEpam();
-        squareRootEpam.squareRoot(10);
+        squareRootEpam.squareRoot(8);
 
         LengthOfTheLastWord lengthOfTheLastWord = new LengthOfTheLastWord();
         lengthOfTheLastWord.lengthOfLastWord("Hello word");
